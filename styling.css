@@ -1,0 +1,27 @@
+/* Main settings */
+* {
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+    }
+    
+    body { 
+      min-height: 0vw;
+      font-size: calc(0.7674943566591423vw + 0.3116534988713318em);
+    }
+
+    /* Max Font Size */
+    @media screen and (min-width:1435px) {
+     body { font-size: 1em; }
+    }
+    /* Min Font Size */
+    @media screen and (max-width:991px) {
+     body { font-size: 1em; }
+    }
+    
+      /* Max  1940px */ 
+    @media screen and (min-width:1940px) {
+      body { 
+      font-size: 1em; 
+      }
+    }
