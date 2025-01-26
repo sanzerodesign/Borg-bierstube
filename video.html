@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="video.css"/>
+    <title>Document</title>
+</head>
+<body> 
+    
+    <header class="head">
+    <nav class="nav">
+        <!-- Navigasjonslenker kan gå her -->
+        <a href="#">Hjem</a>
+        <a href="#">Om Oss</a>
+        <a href="#">Tjenester</a>
+        <a href="#">Kontakt</a>
+    </nav>
+</header>
+
+<section class="section-hero">
+    <!-- Innhold for hero-seksjonen -->
+    <h1>Velkommen til Vår Nettside</h1>
+    <p>Dette er en kort introduksjon eller en kraftfull tagline.</p>
+</section>
+
+<div class="section scroll-film">
+    <div class="content">
+        <div id="videoContainer" class="video-container">
+            <video id="video" width="100%" preload="auto">
+                <source src="https://dlfpdwoevlb74.cloudfront.net/Borg+Bierstube+ansattvideo+C_720_1MBPS-redigert.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+        <div class="scroll-content">
+            <div id="introText" class="intro-text">Velkommen til <br>Borg Bierstube</div>
+            <div id="text1" class="hidden-text">KARIN ERVIK ANDERSEN<br><span class="smaller">SERVITØR</span></div>
+            <div id="text2" class="hidden-text">JØRN SKJEKLESÆTHER<br>EIER / MATANSVARLIG</div>
+            <div id="text3" class="hidden-text">ADMIR SULEJANOVIC<br>ANSVARLIG - KJØKKEN</div>
+            <div id="text4" class="hidden-text">BJØRN MAGNUSSEN<br>DAGLIG LEDER/EIER</div>
+        </div>
+    </div>
+</div>
+
+<div class="section-under">
+    <div class="container"></div>
+</div>
+    
+    <script src="video.js"></script>
+</body>
+</html>

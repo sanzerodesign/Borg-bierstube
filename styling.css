@@ -1,27 +1,797 @@
-/* Main settings */
-* {
-    margin:0px;
-    padding:0px;
-    box-sizing: border-box;
+body {
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+}
+
+.fade-wrapper {
+    padding: 20px;
+}
+
+body.fade-in {
+    opacity: 1;
+}
+
+#side-artikkler > div:first-child {
+    padding-bottom: 14px; 
+}
+
+
+
+
+@media all and (min-width: 1630px) and (max-width: 1800px)  {
+
+    .holder-innhold__box._2{
+padding-left: 1em;
+
     }
-    
-    body { 
-      min-height: 0vw;
-      font-size: calc(0.7674943566591423vw + 0.3116534988713318em);
+    .heading-mat-drikke{
+
+        font-size: 40px;
+    }
+    .paragraph{
+        font-size:15px;
     }
 
-    /* Max Font Size */
-    @media screen and (min-width:1435px) {
-     body { font-size: 1em; }
+.holder-innhold__box._1 {
+    padding:20px;
+}
+
+/* Menysiden */
+
+.frame-image {
+    max-width: 250px;
+}
+
+.heading-artiekl_main {
+    font-size: 3.2em;
+}
+
+.paragraf-text.less-text__space {
+    font-size: 16.5px;
+}
+
+
+
+
+}
+
+
+@media all and (min-width: 1456px) and (max-width: 1629px)  {
+
+    .holder-icons {
+        display:none;
     }
-    /* Min Font Size */
-    @media screen and (max-width:991px) {
-     body { font-size: 1em; }
+
+    
+
+.from-text {
+    font-size: 35px;
+}
+
+.skjema {
+   width: 45em;
+}
+
+.input-form.lager {
+
+    width: 25em;
+}
+
+.top_heading__form {
+    width: 100%;
+}
+
+.image-place_hjelper {
+    min-width: 300px;
+}
+.main-heading__top{
+    font-size: 55px;
+}
+
+.paragraph-main__tekst {
+    font-size: 15.5px;
+    line-height: 27px;
+}
+
+.hvor-tekst__padding{
+    padding-right: 30px;
+    min-width: 30em;
+}
+
+    .holder-innhold__box._2{
+padding-left: 1em;
+
+    }
+    .heading-mat-drikke{
+
+        font-size: 35px;
+    }
+    .paragraph{
+        font-size:15px;
+        line-height: 24px;
+    }
+
+    .holder-innhold__box._1 {
+        padding: 20px 0px 20px 20px;
+    }
+
+    /* Menysiden */
+
+    .frame-image {
+        max-width: 250px;
+    }
+
+    .heading-artiekl_main {
+        font-size: 2.7em;
+    }
+
+    .paragraf-text.less-text__space {
+        font-size: 16px;
+    }
+
+    .image_artikel {
+        min-height: 500px;
+    }
+    .information {
+        padding-right: 10px;
+        
+    }
+    .paragraf-text.less-text__space {
+        font-size: 15px;
+        line-height: 25px;
+        
+        
+    }
+
+}
+
+@media all and (min-width: 1300px) and (max-width: 1455px)  {
+
+    .holder-icons {
+        display:none;
+    }
+
+    
+
+.from-text {
+    font-size: 35px;
+}
+
+.skjema {
+   width: 45em;
+}
+
+.input-form.lager {
+
+    width: 25em;
+}
+
+
+    .from-text {
+        font-size: 35px;
     }
     
-      /* Max  1940px */ 
-    @media screen and (min-width:1940px) {
-      body { 
-      font-size: 1em; 
-      }
+    .skjema {
+       width: 45em;
     }
+    
+    .top_heading__form {
+        width: 110%;
+    }
+
+
+    .image-place_hjelper {
+        min-width: 200px;
+        height: 100%;
+        
+    }
+
+    .hover-bilde {
+    padding: 50px !important;
+    }
+    .paragraph-main__tekst {
+        font-size: 14.5px;
+        line-height: 23px;
+    }
+    
+    .hvor-tekst__padding{
+        padding-right: 30px;
+        min-width: 20px;
+    }
+
+
+
+    .holder-innhold__box._2{
+    padding-left: 1em;
+
+    }
+    .heading-mat-drikke{
+        font-size: 30px;
+    }
+    .paragraph{
+        font-size:13px;
+        line-height: 23px;
+    }
+
+    .holder-innhold__box._1 {
+        padding:10px 0px 10px 10px;
+    }
+    .heading-mat-drikke {
+        font-size: 28px;
+    }
+    /* Menysiden */
+
+    .frame-image {
+        max-width: 220px;
+        height: 150px;
+    }
+
+    .heading-artiekl_main {
+        font-size: 2.7em;
+    }
+
+    .paragraf-text.less-text__space {
+        font-size: 15px;
+        line-height: 22px;
+    }
+
+    .image_artikel {
+        min-height: 500px;
+    }
+
+    /* Hvor er vi */
+
+    .main-heading__top{
+        font-size: 40px;
+    }
+
+    .hover-bilde {
+        width: 60%;
+        padding: 25px;
+    }
+
+    .hvor-tekst {
+        width: 40%;
+    }
+
+    .paragraph-2{
+        max-width: 300px;
+    }
+
+    .wrapp-linker {
+        max-width: 400px;
+        display: block;
+    }
+
+    .holder-01 {
+        margin-bottom: 12px;
+
+    }
+
+    .link-holder.margin-side_02 {
+        margin-left: 0px;
+
+    }
+
+    .information {
+
+        padding-right: 20px;
+    }
+
+    .holder-events {
+        padding: 10px;
+       
+    }
+
+    .innholde-food.dark {
+        line-height: 20px;
+    }
+
+   
+
+}
+
+
+@media all and (min-width: 1210px) and (max-width: 1300px)  {
+
+    .holder-icons {
+        display:none;
+    }
+
+    
+
+.from-text {
+    font-size: 35px;
+}
+
+.skjema {
+   width: 45em;
+}
+
+.input-form.lager {
+
+    width: 25em;
+}
+
+
+    .from-text {
+        font-size: 30px;
+    }
+    
+    .skjema {
+       width: 45em;
+    }
+    
+    .top_heading__form {
+        width: 100%;
+    }
+
+    .image-place_hjelper {
+        min-width: 250px;
+    }
+
+.hvor-tekst__padding{
+min-width: 100px;
+}
+
+.hover-bilde {
+    padding: 30px !important;
+    }
+    .paragraph-main__tekst {
+        font-size: 14.5px;
+        line-height: 23px;
+    }
+    
+    .hvor-tekst__padding{
+        padding-right: 30px;
+        min-width: 20px;
+    }
+
+    
+
+    .wrapper{
+        align-items: flex-start;
+    } 
+
+    .section-hero-bb {
+        max-height: 100%!important;
+    }
+
+    .holder-main__elements {
+        max-height: 900px;
+    }
+
+    .holder-top, .holder-bunn{
+        display: flex;
+        flex-direction: column;
+        margin: 0px;
+        padding: 0px;
+
+    }
+
+    .holder-cell._1, .holder-cell._3  {
+        margin: 0px 0px 6px 0px;
+
+    }
+
+    .holder-cell._3 {
+        margin-top: 6px;
+    }
+
+    .front-cell-01{
+        margin: 0px;
+    }
+
+    .holder-menu__select {
+        display: none;
+    }
+
+
+    .holder-innhold__box._2{
+padding-left: 1em;
+
+    }
+
+
+    .holder-cell  {
+        width: 100%;
+        padding-left: 0px;
+        margin: 6px 0px 6px 0px;
+    }
+
+
+    .heading-mat-drikke{
+
+        font-size: 30px;
+    }
+    .paragraph{
+        font-size:13px;
+        line-height: 23px;
+    }
+.holder-innhold__box._1{
+    padding: 10px;
+}
+
+    .image-holder_box{
+        max-width: 100%;
+        padding: 30px;
+
+    }
+    .holder-cell._4 {
+        margin-bottom: 0px;
+    }
+
+    .heading-mat-drikke{
+font-size: 39px;
+
+    }
+
+    .paragraph {
+        font-size: 13px;
+    }
+
+    .meny-main {
+        width: 100%;
+    }
+    .mat-ment__text {
+        font-size: 40px;
+
+    }
+    .btn.meny-grey {
+    width: 50%;
+    padding: 9px 0px 7px 0px;
+    }
+
+    .holder_meny {
+        padding: 30px;
+    }
+
+    .coll-list-mat {
+        height: 95%;
+    }
+
+    .holder-info__menu {
+        min-height: 33%;
+    }
+
+    /* Menysiden */
+
+    .frame-image {
+        max-width: 180px;
+        height: 150px;
+    }
+    .innholde-food.dark {
+        font-size: 12px;
+    }
+
+    .allergi-text-sign {
+        font-size: 12px;
+    }
+
+
+    .heading-artiekl_main {
+        font-size: 2.2em;
+    }
+
+    .paragraf-text.less-text__space {
+        font-size: 13px;
+    }
+
+    .image_artikel {
+        min-height: 500px;
+    }
+
+      /* Hvor er vi */
+
+    .main-heading__top{
+        font-size: 35px;
+    }
+
+    .hover-bilde {
+        width: 60%;
+        padding: 25px;
+    }
+
+    .hvor-tekst {
+        width: 40%;
+    }
+
+    .paragraph-2{
+        max-width: 250px;
+    }
+
+    .wrapp-linker {
+        max-width: 400px;
+        display: block;
+    }
+
+    .holder-01 {
+        margin-bottom: 12px;
+    }
+
+    .link-holder.margin-side_02 {
+        margin-left: 0px;
+    }
+
+    .heading-map{
+        font-size: 50px;
+    }
+
+    .information {
+        display: none;
+        padding-right: 5px;
+    }
+
+    .section._100 {
+        margin-top: 20px;
+    }
+
+    .holder-events {
+        padding: 10px;
+        
+    }
+}
+
+@media all and (min-width: 992px) and (max-width: 1210px)  {
+
+
+    .wrapper{
+        align-items: flex-start;
+    } 
+
+    .section-hero-bb {
+        max-height: 100%!important;
+    }
+
+    .holder-main__elements {
+        max-height: 900px;
+    }
+
+    .holder-top, .holder-bunn{
+        display: flex;
+        flex-direction: column;
+        margin: 0px;
+        padding: 0px;
+
+    }
+
+    .holder-cell._1, .holder-cell._3  {
+        margin: 0px 0px 6px 0px;
+
+    }
+
+    .holder-cell._3 {
+        margin-top: 6px;
+    }
+
+    .front-cell-01{
+        margin: 0px;
+    }
+
+    .holder-menu__select {
+        display: none;
+    }
+
+
+    .holder-innhold__box._2{
+padding-left: 1em;
+
+    }
+
+
+    .holder-cell  {
+        width: 100%;
+        padding-left: 0px;
+        margin: 6px 0px 6px 0px;
+    }
+
+
+    .heading-mat-drikke{
+
+        font-size: 30px;
+    }
+    .paragraph{
+        font-size:13px;
+        line-height: 23px;
+    }
+.holder-innhold__box._1{
+    padding: 10px;
+}
+
+    .image-holder_box{
+        max-width: 100%;
+        padding: 30px;
+
+    }
+    .holder-cell._4 {
+        margin-bottom: 0px;
+    }
+
+    .heading-mat-drikke{
+font-size: 39px;
+
+    }
+
+    .paragraph {
+        font-size: 13px;
+    }
+
+    .meny-main {
+        width: 100%;
+    }
+    .mat-ment__text {
+        font-size: 40px;
+
+    }
+    .btn.meny-grey {
+    width: 50%;
+    padding: 9px 0px 7px 0px;
+    }
+
+    .holder_meny {
+        padding: 30px;
+    }
+
+    .coll-list-mat {
+        height: 95%;
+    }
+
+    .holder-info__menu {
+        min-height: 33%;
+    }
+
+    .holder-icons {
+        display:none;
+    }
+
+    
+
+.from-text {
+    font-size: 35px;
+}
+
+.skjema {
+   width: 45em;
+}
+
+.input-form.lager {
+
+    width: 25em;
+}
+
+    .top_heading__form {
+        width: 600px;
+    }
+
+
+    .bestill-na.w-form {
+        width: 450px;
+
+    }
+    .holder-form {
+        display:block;
+    }
+
+    .line-transport.form.new {
+        display: none;
+    }
+
+    .input-form {
+        margin-left: 0px;
+        margin-top: 10px;
+    }
+
+    .from-text {
+        font-size: 25px;
+    }
+    
+    .skjema {
+       width: 45em;
+    }
+    
+    .top_heading__form {
+        width: 100%;
+    }
+
+    .image-place_hjelper{
+        display: none;
+    }
+
+    .hover-bilde {
+        display: none;
+    }
+
+    
+    .hvor-tekst__padding{
+       width: 100%;
+       padding: 40px;
+        }
+
+        .holder_meny {
+            padding:10px 25px;
+        }
+
+.holder-cms{
+    width: 55%;
+    padding: 0%;
+}
+.collection-item{
+    padding: 0%;
+}
+
+.holder-data_newsletter{
+    width: 60em;
+}
+
+.holder-right{
+width: 50%;
+overflow: hidden;
+}
+
+.heading-map{
+    font-size: 40px;
+}
+
+.holder-fullwidth__hjerte{
+padding-right: 20px;
+
+}
+
+.image-holder_map {
+    width: 75em;
+}
+
+.text__map {
+padding-left: 20px;
+}
+
+.section._100 {
+    margin-top: 0px;
+}
+
+.information {
+display: none;
+}
+
+.wrapp-linker {
+    display: none;
+}
+
+.wrapp-text {
+
+justify-content: center;
+width: 450px;
+
+}
+.hvor-tekst {
+    width:100%;
+    display: flex;
+    justify-content: center;
+    max-width: 100%;
+
+}
+
+.right-side__mijo {
+width: 100%;
+align-items: center;
+}   
+
+.data-traffic {
+    width: 100%;
+}
+
+.paragraf-text.less-text__space {
+    font-size: 15px;
+    line-height: 20px;
+    
+}
+
+.heading-artiekl_main {
+
+    font-size: 2.2em;
+}
+
+
+
+}
+

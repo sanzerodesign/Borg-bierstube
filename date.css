@@ -1,0 +1,62 @@
+
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+#kalender, #tid {
+    -webkit-appearance: none;  
+    display: flex;
+    align-items: center;
+    text-align: center; 
+    width: 50%;
+    height: 50px;
+    padding-left: 18px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-top-style: solid;
+    border-top-width: 2px;
+
+    border-top-color: var(--color--main-dark);
+    border-right-style: solid;
+    border-right-width: 2px;
+    border-right-color: var(--color--main-dark);
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    border-bottom-color: var(--color--main-dark);
+    border-left-style: solid;
+    border-left-width: 2px;
+    border-left-color: var(--color--main-dark);
+    border-top-left-radius: var(--border-radius--10px);
+    border-top-right-radius: var(--border-radius--10px);
+    border-bottom-left-radius: var(--border-radius--10px);
+    border-bottom-right-radius: var(--border-radius--10px);
+    background-color: hsla(35.121951219512184, 33.06%, 48.63%, 1.00);
+  }
+    #kalender, #tid  {
+      font-size: -webkit-small;
+    }
+
+#tid {
+
+    margin-left: 10px;
+}
+
+  }
+
+#kalender {
+     
+    display: flex;
+    align-items: center;
+    text-align: center; 
+    width: 14em;
+    height: 3.4375em;
+}
+
+#tid {
+     
+    display: flex;
+    align-items: center;
+    text-align: center; 
+    width: 7em;
+    height: 3.4375em;
+}
+

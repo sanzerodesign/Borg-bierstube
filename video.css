@@ -1,0 +1,86 @@
+/* Generell Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.content {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.video-container {
+  position: sticky;
+  top: 0;
+  width: 100%;
+  height: 0; /* Fjern fast høyde */
+  overflow: hidden;
+  padding-top: 56.25%; /* 9/16 = 0.5625 * 100% for å opprettholde 16:9 aspektforhold */
+}
+
+.video-container video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* Stil for skjult tekst */
+
+.hidden-text {
+  position: fixed;
+  top: 35%; /* Plasser relativt til videoen, juster etter behov */
+  left: 30%; /* Plasser relativt til videoen, juster etter behov */
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+  font-size: 2em;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 200ms ease-in-out, visibility 200ms ease-in-out;
+}
+
+.intro-text {
+  position: fixed;
+  top: 70%; /* Plasser relativt til videoen, juster etter behov */
+  left: 50%; /* Plasser relativt til videoen, juster etter behov */
+  transform: translate(-50%, -50%);
+  text-align: center;
+    font-family: freight-big-pro;
+    color: var(--color--main-gold);
+    font-size: 3.5em;
+    line-height: 55px;
+    text-transform: uppercase;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 200ms ease-in-out, visibility 200ms ease-in-out;
+}
+
+.hidden-text .smaller {
+  font-size: 0.75em; /* Mindre fontstørrelse */
+  font-weight: 300;
+}
+
+.scroll-content {
+  padding-top: 200vh; /* Tilpass dette basert på innholdet ditt */
+  height: 5500vh; /* Juster basert på den totale scrollvarigheten du trenger */
+}
+
+
+/* Skjuler .section.scroll-film på skjermer større enn 1920x1080 */
+@media screen and (min-width: 1921px) and (min-height: 1081px) {
+  .section.scroll-film {
+      display: none;
+  }
+}
+
+/* Skjuler .section.scroll-film på skjermer på 1680x1050 og mindre */
+@media screen and (max-width: 1680px){
+  .section.scroll-film {
+      display: none;
+  }
+}
